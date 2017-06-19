@@ -6,14 +6,14 @@ var reload = browserSync.reload;
 gulp.task('serve', function() {
 	browserSync.init({
     		server: {
-      		baseDir: 'app'
+      		baseDir: ''
       	}
       });
 });
 
 gulp.task('default', ['serve'], function() {
-	gulp.watch('app/**/*.html').on('change', reload);
-	gulp.watch('app/css/**/*.css').on('change', reload);
-	gulp.watch('app/js/**/*.js').on('change', reload);
-	gulp.watch('app/images/**/*.jpg').on('change', reload);
+	gulp.watch('/*.html').on('change', reload);
+	gulp.watch('css/**/*.css').on('change', reload);
+	gulp.watch('js/**/*.js').on('change', reload);
+	gulp.watch('images/**/*.jpg').on('change', reload);
 });
