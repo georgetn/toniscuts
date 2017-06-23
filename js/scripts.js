@@ -17,14 +17,14 @@ $(document).ready(function(){
 
 function change(){
 	if(document.body.scrollTop != 0){
-    	document.getElementById('nav-bar').classList.remove('unscrolled');
-    	$(".toni-logo").fadeIn();
-    	$("#mobile-logo").fadeIn();
+    		document.getElementById('nav-bar').classList.remove('unscrolled');
+	    	$(".toni-logo").fadeIn();
+	    	$("#mobile-logo").fadeIn();
   	}
   	if(document.body.scrollTop == 0){
-    	document.getElementById('nav-bar').classList.add('unscrolled');
-    	$(".toni-logo").fadeOut();
-    	$("#mobile-logo").fadeOut();
+	    	document.getElementById('nav-bar').classList.add('unscrolled');
+	    	$(".toni-logo").fadeOut();
+	    	$("#mobile-logo").fadeOut();
   	}
   	// console.log('changed');
 };

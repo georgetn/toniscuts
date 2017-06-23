@@ -166,7 +166,8 @@ strong{
 }
 
 .menu-btn{
-    font-size: 1.9rem !important;
+	margin-left: 1rem;
+    	font-size: 1.9rem !important;
 }
 .menu-btn i{
     font-size: 2rem !important;
@@ -189,8 +190,8 @@ strong{
     position:absolute;
 }
 .social {
-	color:#d32f2f;
-	border-color:#d32f2f;
+	color:#ffffff;
+	border-color:#ffffff;
 }
 .copyright{
     color:white;
