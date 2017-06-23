@@ -54,7 +54,7 @@ strong{
     background-repeat: none;
     background-position: 50% 50%;
     padding-top: 0;
-    background-color:#263238;
+    background-image: linear-gradient(to right, #780206, #061161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */);
     color:white;
     min-height:400px;
     /*filter: brightness(.75); apply this to bg image only*/
@@ -101,7 +101,8 @@ strong{
 }
 
 .menu-btn{
-    font-size: 1.9rem !important;
+	margin-left: 1rem;
+	font-size: 1.9rem !important;
 }
 .menu-btn i{
     font-size: 2rem !important;
@@ -110,9 +111,31 @@ strong{
     opacity: 0;
 }
 
+/* footer shortcode from materiializecss v0.99.0 */
+.footer {
+  padding-top: 20px;
+}
+
+.footer .footer-copyright {
+  overflow: hidden;
+  min-height: 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+.footer .footer-copyright {
+  font-weight: 300;
+}
+
 .social {
-	color:#d32f2f;
-	border-color:#d32f2f;
+	color:#ffffff;
+	border-color:#ffffff;
 }
 .copyright{
     color:white;

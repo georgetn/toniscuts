@@ -189,6 +189,28 @@ strong{
     width:100%;
     position:absolute;
 }
+/* footer shortcode from materiializecss v0.99.0 */
+.footer {
+  padding-top: 20px;
+}
+
+.footer .footer-copyright {
+  overflow: hidden;
+  min-height: 50px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+.footer .footer-copyright {
+  font-weight: 300;
+}
+
 .social {
 	color:#ffffff;
 	border-color:#ffffff;
